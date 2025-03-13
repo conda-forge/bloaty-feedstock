@@ -19,7 +19,7 @@ source:
     folder: third_party/demumble
 
 build:
-  number: 6
+  number: 7
   skip: true  # [win]
 
 requirements:
