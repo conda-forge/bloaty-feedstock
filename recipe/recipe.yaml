@@ -33,6 +33,9 @@ requirements:
     - cmake
     - ninja
     - pkg-config
+    - if: build_platform != target_platform
+      then:
+        - protobuf 3.21.*
   host:
     - libprotobuf 3.21.*
     - re2
