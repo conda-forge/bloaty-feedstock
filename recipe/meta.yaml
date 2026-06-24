@@ -3,7 +3,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   - url: https://github.com/google/bloaty/archive/refs/tags/v{{ version }}.tar.gz
@@ -19,7 +19,7 @@ source:
     folder: third_party/demumble
 
 build:
-  number: 9
+  number: 10
   skip: true  # [win]
 
 requirements:
